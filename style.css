@@ -72,15 +72,16 @@ section {
     color: #ffeb3b;
 }
 
-/* Profile image styling */
-.profile-img {
-    width: 150px; /* Size of the profile image */
-    height: 150px;
-    border-radius: 50%; /* Makes it circular */
-    margin-top: 20px; /* Adds space between text and image */
-    object-fit: cover; /* Ensures image doesn't get stretched */
-    border: 4px solid #ffeb3b; /* Adds a yellow border */
+.profile-pic {
+    width: 150px; /* photo ki width */
+    height: 150px; /* photo ki height */
+    border-radius: 50%; /* Circle banane ke liye */
+    object-fit: cover; /* photo ko zoom ya crop kar dega sahi shape me */
+    margin: 20px auto; /* thoda gap aur center me karne ke liye */
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* halka shadow stylish dikhane ke liye */
 }
+
 
 .about, .skills, .projects, .contact {
     background: #fff;
